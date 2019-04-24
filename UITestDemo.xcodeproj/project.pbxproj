@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61764EAB22700175005412E8 /* SecondViewControllerUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61764EAA22700175005412E8 /* SecondViewControllerUITest.swift */; };
 		61ABC6D5226D50DE00E572BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABC6D4226D50DE00E572BE /* AppDelegate.swift */; };
 		61ABC6D7226D50DE00E572BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABC6D6226D50DE00E572BE /* ViewController.swift */; };
 		61ABC6DA226D50DE00E572BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61ABC6D8226D50DE00E572BE /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61764EAA22700175005412E8 /* SecondViewControllerUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerUITest.swift; sourceTree = "<group>"; };
 		61ABC6D1226D50DE00E572BE /* UITestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61ABC6D4226D50DE00E572BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61ABC6D6226D50DE00E572BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				61ABC6E9226D50E100E572BE /* UITestDemoUITests.swift */,
+				61764EAA22700175005412E8 /* SecondViewControllerUITest.swift */,
 				61ABC6EB226D50E100E572BE /* Info.plist */,
 			);
 			path = UITestDemoUITests;
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61764EAB22700175005412E8 /* SecondViewControllerUITest.swift in Sources */,
 				61ABC6EA226D50E100E572BE /* UITestDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UITestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UITestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

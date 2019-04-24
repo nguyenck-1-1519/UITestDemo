@@ -79,7 +79,16 @@ class UITestDemoUITests: XCTestCase {
     }
 
     func testCaseLoginSuccess() {
+        let app = XCUIApplication()
+        let textField = app.textFields["usernameTextfield"]
+        textField.tap()
+        textField.typeText("user1")
+        let passwordTextField = app.textFields["passwordTextfield"]
+        passwordTextField.tap()
+        passwordTextField.typeText("1")
+        app.buttons["Login"].tap()
 
+        XCTAssert(app.staticTexts["Login success"].exists)
     }
 
 
